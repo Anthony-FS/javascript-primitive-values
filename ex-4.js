@@ -5,3 +5,8 @@ let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
 
 console.log((numberOfSoldProduct / numberOfProductInStock) * 100);
+
+// output: NaN because you cannot divide with undefined 
+
+
+
